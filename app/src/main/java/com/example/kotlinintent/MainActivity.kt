@@ -19,8 +19,8 @@ class MainActivity : AppCompatActivity() {
             val bundle = Bundle()
             bundle.putString("name", "Roychen")
             bundle.putInt("age", 48)
-            bundle.putDouble("height", 171.0)
-            bundle.putDouble("weight", 73.0)
+            bundle.putDouble("height", 171.5)
+            bundle.putDouble("weight", 72.5)
             orderIt.putExtras(bundle)
             startActivityForResult(orderIt, 100)
         }
